@@ -1,0 +1,32 @@
+http://10.10.10.12/artemis-web
+admin
+maestra
+
+
+
+Clasves API
+PK
+X-Ca-Key 	=	21152844
+
+Secret
+mGsdDKyR8c66xvIYMBqS
+
+
+X-Ca-Signature-Headers	= X-Ca-Key
+
+
+Esto es lo que se calcula
+X-Ca-Signature
+
+Como generar firma
+https://www.devglan.com/online-tools/hmac-sha256-online
+
+Enter Plain Text to Compute Hash	= 
+
+POST
+*/*
+x-ca-key:21152844
+/artemis/api/common/v1/version
+
+hash
+SHA-256 Base64
